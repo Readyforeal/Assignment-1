@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.flex{
+    width: 100%;
+    display: inline-flex;
+}
+
+#header{
+    height: 80px;
+    background-color: #eee;
+}
+
+    #brand{
+        padding-top: 26px;
+    }
+
+    #brand-title{
+        font-weight: 100;
+    }
+
+#content{
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+}
+    #left-panel{
+        width: 50%;
+    }
+
+    #right-panel{
+        font-size: 10pt;
+        width: 50%;
+    }
+
+#footer{
+    position: absolute;
+    background-color: #eee;
+    bottom: 0px;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 20%;
+    text-align: left;
+}
+
+td{
+    padding: 5px 0px 5px 0px;
+}
