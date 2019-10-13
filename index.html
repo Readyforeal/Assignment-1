@@ -132,18 +132,48 @@
                 <hr>
 
                 <div id="extras-form" class="w-25">
-                    <h3>Add Employee</h3>
+
+                    <h3>Add Employee</h3><br>
+
                     <form>
-                        <input placeholder="Name" class="form-control" type="text"><br>
-                        <input placeholder="Date of Birth" class="form-control" type="text"><br>
-                        <input placeholder="Address" class="form-control" type="text"><br>
-                        <button class="btn btn-primary">Add</button>
+                        <label>Name</label>
+                        <input class="form-control" type="text">
+
+                        <label>Date of Birth</label>
+                        <input class="form-control" type="text">
+
+                        <label>Address</label>
+                        <input class="form-control" type="text">
+
+                        <label>Pet Preference</label>
+                        <select class="form-control">
+                            <option>Select..</option>
+                            <option>Cats</option>
+                            <option>Dogs</option>
+                        </select>
+
+                        <label>Short Bio</label>
+                        <textarea class="form-control"></textarea><br>
+
+                        <button class="btn btn-primary">Add Employee</button>
                     </form>
                 </div>
+
+                <div class="pt-3" id="extras-spinner">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+                
+                <p id="extras-script"></p>
+                
+                <script>
+                    document.getElementById("extras-script").innerHTML = "Script!";
+                </script>
             </div>
         </section>
     
-        <footer class="bottom-0 absolute bg-light" style="position: absolute; bottom: 0; width: 100%;" id="footer">
+        <footer class="bg-light" style="width: 100%;" id="footer">
             <div class="footer-copyright text-center py-3" id="footer-copyright">
                 <p>© 2019 Copyright: Brendin Kleinsmith</p>
             </div>
